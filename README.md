@@ -31,7 +31,7 @@ A working post-task runner code will be available in 'dist' folder.
 
 ### Demo version
 
-Go to this [link](http://dshatalov.com/website-optimisation/dist) to inspect the portfolio website and this [link](http://dshatalov.com/website-optimisation/dist/views) to experience rendering for less than 60fps.
+Go to this [link](http://dshatalov.com/website-optimisation/dist) to inspect the portfolio website and this [link](http://dshatalov.com/website-optimisation/dist/views/pizza.html) to experience rendering for less than 60fps.
 
 
 ## License
