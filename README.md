@@ -29,19 +29,10 @@ $ gulp
 ```
 A working post-task runner code will be available in 'dist' folder.
 
-### Running demo version
+### Demo version
 
-1. Run a local server in the root of the project
-```
-$ python -m SimpleHTTPServer 8080
-```
+Go to this [link](http://dshatalov.com/website-optimisation/dist) to inspect the portfolio website and this [link](http://dshatalov.com/website-optimisation/dist/views) to experience rendering for less than 60fps.
 
-2. Download and install [ngrok](https://ngrok.com/) to the root of the project directory and make local server accessible remotely by running:	
-```
-$ ./ngrok http 8080
-```
-
-3. Open `localhost:8080/dist/index.html` to inspect the portfolio website and `localhost:8080/views/pizza.html` to experience fast rendering of pizzas.
 
 ## License
 
