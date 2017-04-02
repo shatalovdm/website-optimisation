@@ -1,8 +1,8 @@
-# Website Performance Optimization project
+# Website Performance Optimization
 
 The main goal of this project was to optimize online portfolio for speed and make the pizza restaurant website run 60 fps! 
 
-By optimizing the critical rendering path 'dist/index.html' achieves a PageSpeed score of at least 90 for Mobile and Desktop. For this purpose optimizations such as minification of CSS, JS and HTML and image optimizations were automated using a build tool, in particular Gulp. See `gulpfile.js` for reference.
+By optimizing the critical rendering path `dist/index.html` achieves a PageSpeed score of at least 90 for Mobile and Desktop. For this purpose optimizations such as minification of CSS, JS and HTML and image optimizations were automated using a build tool, in particular Gulp. See `gulpfile.js` for reference.
 
 By optimizing `views/js/main.js` a quite controversial `views/pizza.html` website  renders with a consistent frame-rate at 60fps when scrolling. It was accomplished by reducing the number of calculations and avoiding the need to trigger the layout with the CSS `transform` property. Also painting was reduced by forcing objects into its layers with `transform: translateZ(0);`. 
 
@@ -42,8 +42,6 @@ $ ./ngrok http 8080
 ```
 
 3. Open `localhost:8080/dist/index.html` to inspect the portfolio website and `localhost:8080/views/pizza.html` to experience fast rendering of pizzas.
-
-## License
 
 ## License
 
