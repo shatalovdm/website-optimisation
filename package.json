@@ -1,0 +1,32 @@
+{
+  "name": "website_optimisation",
+  "version": "1.0.0",
+  "description": "Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shatalovdm/website-optimisation.git"
+  },
+  "author": "Dmitry Shatalov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shatalovdm/website-optimisation/issues"
+  },
+  "homepage": "https://github.com/shatalovdm/website-optimisation#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-minify": "0.0.15",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.5.0",
+    "imagemin-jpeg-recompress": "^5.1.0"
+  }
+}
