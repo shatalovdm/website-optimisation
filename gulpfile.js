@@ -10,7 +10,7 @@ var imageminJpegRecompress = require('imagemin-jpeg-recompress');
 var htmlmin = require('gulp-htmlmin');
 
 gulp.task('minify-html', function() {
-  return gulp.src('index.html')
+  return gulp.src('*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist'));
 });
@@ -51,4 +51,9 @@ gulp.task('minify-js', function() {
         .pipe(gulp.dest('dist/js'))
 });
 
-gulp.task('default', [ 'minify-html', 'minify-css', 'minify-js', 'minify-images' ]);
+gulp.task('copy-views', function() {
+    return gulp.src('./views/**/**.*')
+        .pipe(gulp.dest('dist/views'));
+});
+
+gulp.task('default', [ 'minify-html', 'minify-css', 'minify-js', 'minify-images', 'copy-views']);

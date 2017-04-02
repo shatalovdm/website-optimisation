@@ -25,7 +25,6 @@
     "gulp-imagemin": "^3.2.0",
     "gulp-minify": "0.0.15",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.5.0",
     "imagemin-jpeg-recompress": "^5.1.0"
   }

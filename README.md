@@ -4,7 +4,7 @@ The main goal of this project was to optimize online portfolio for speed and mak
 
 By optimizing the critical rendering path `dist/index.html` achieves a PageSpeed score of at least 90 for Mobile and Desktop. For this purpose optimizations such as minification of CSS, JS and HTML and image optimizations were automated using a build tool, in particular Gulp. See `gulpfile.js` for reference.
 
-By optimizing `views/js/main.js` a quite controversial `views/pizza.html` website  renders with a consistent frame-rate at 60fps when scrolling. It was accomplished by reducing the number of calculations and avoiding the need to trigger the layout with the CSS `transform` property. Also painting was reduced by forcing objects into its layers with `transform: translateZ(0);`. 
+By optimizing `dist/views/js/main.js` a quite controversial `dist/views/pizza.html` website  renders with a consistent frame-rate at 60fps when scrolling. It was accomplished by reducing the number of calculations and avoiding the need to trigger the layout with the CSS `transform` property. Also painting was reduced by forcing objects into its layers with `transform: translateZ(0);`. 
 
 
 
